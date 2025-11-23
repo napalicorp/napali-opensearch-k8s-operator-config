@@ -1,0 +1,10 @@
+apiVersion: v2
+name: opensearch-cluster
+description: A Helm chart for OpenSearch Cluster
+type: application
+
+## The opensearch-cluster Helm Chart version
+version: 3.0.0
+
+## The operator version
+appVersion: 2.8.0
