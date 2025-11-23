@@ -47,9 +47,9 @@ manager:
   pprofEndpointsEnabled: false
 
   image:
-    repository: opensearchproject/opensearch-operator
+    repository: amalabey/opensearch-operator
     ## tag default uses appVersion from Chart.yaml, to override specify tag tag: "v1.1"
-    tag: ""
+    tag: "3.3.2"
     pullPolicy: "Always"
 
   ## Optional array of imagePullSecrets containing private registry credentials
