@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-nameOverride: ""
+nameOverride: "dev-os"
 fullnameOverride: ""
 
 serviceAccount:
@@ -18,7 +18,7 @@ serviceAccount:
 # cluster configuration
 cluster:
   # -- cluster name, by default release name is used
-  name: ""
+  name: "dev-os-cluster"
 
   # -- cluster annotations
   annotations: {}
@@ -262,7 +262,7 @@ cluster:
     - component: masters
       # -- node pool pod annotations
       annotations: {}
-      diskSize: "30Gi"
+      diskSize: "10Gi"
       replicas: 3
       roles:
         - "master"
