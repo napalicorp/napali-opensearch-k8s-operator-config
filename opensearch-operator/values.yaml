@@ -2,7 +2,9 @@ nameOverride: ""
 fullnameOverride: ""
 
 podAnnotations: {}
-podLabels: {}
+podLabels: {
+  control-plane: controller-manager
+}
 nodeSelector: {}
 tolerations: []
 securityContext:
