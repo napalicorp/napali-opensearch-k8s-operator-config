@@ -73,7 +73,7 @@ cluster:
     # Monitoring configuration. Check [documentation](https://github.com/Opster/opensearch-k8s-operator/blob/main/docs/userguide/main.md#adding-opensearch-monitoring-to-your-cluster) how to configure it.
     monitoring:
       # -- Enable cluster monitoring
-      enable: false
+      enable: true
 
       # -- Additional labels to apply to the generated ServiceMonitor
       labels: {}
